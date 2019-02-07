@@ -1,0 +1,19 @@
+<div [formGroup]="catForm">
+  <label>
+    Name:
+    <input type="text" formControlName="name">
+  </label>
+  <label>
+    Description:
+    <input type="text" formControlName="description">
+  </label>
+  <label>
+    Color:
+    <input type="text" formControlName="color">
+  </label>
+  <label>
+    Photo Url:
+    <input type="text" formControlName="photoUrl">
+  </label>
+  <button (click)="addCat()">Add</button>
+</div>
